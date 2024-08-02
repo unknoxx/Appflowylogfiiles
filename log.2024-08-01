@@ -1,0 +1,607 @@
+{"msg":"💡Some(\"Linux 22.04 Ubuntu\"), platform: Linux","time":"08-01 12:32:23","target":"flowy_core"}
+{"msg":"[🟢 INIT - START]","time":"08-01 12:32:23","target":"flowy_core"}
+{"msg":"[INIT - EVENT] 🔥AppFlowy Configuration { app_version: Version { major: 0, minor: 6, patch: 5 }, storage_path: \"/home/tobi/.local/share/AppFlowy/data_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk\", application_path: \"/home/tobi/.local/share/AppFlowy/data\", base_url: \"https://beta.appflowy.cloud\", ws_url: \"wss://beta.appflowy.cloud:443/ws/v1\", gotrue_url: \"https://beta.appflowy.cloud/gotrue\" }","time":"08-01 12:32:23","target":"flowy_core"}
+{"msg":"[AI Plugin] state: Connecting","time":"08-01 12:32:23","target":"flowy_chat::local_ai::local_llm_chat"}
+{"msg":"[INIT - EVENT] init user session: 302396480654675968:tobiakinsinmide@gmail.com, authenticator: AppFlowyCloud","time":"08-01 12:32:23","target":"flowy_user::user_manager::manager"}
+{"msg":"[INIT - EVENT] open collab db for user 302396480654675968 at path: \"/home/tobi/.local/share/AppFlowy/data_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk/302396480654675968/collab_db\"","time":"08-01 12:32:23","target":"flowy_user::services::db"}
+{"msg":"[INIT - EVENT] open collab db to validate data integration for user 302396480654675968","time":"08-01 12:32:24","target":"flowy_user::services::db"}
+{"msg":"[🟢 BACKUP_COLLAB_DB - START]","time":"08-01 12:32:24","target":"flowy_user::services::db"}
+{"msg":"[BACKUP_COLLAB_DB - EVENT] Backup collab db to \"/home/tobi/.local/share/AppFlowy/data_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk/302396480654675968/collab_db_history/collab_db_20240801.zip\"","time":"08-01 12:32:24","target":"flowy_user::services::db"}
+{"msg":"[INIT - EVENT] Set AI model: ","time":"08-01 12:32:24","target":"flowy_core::integrate::trait_impls"}
+{"msg":"🟢token state: Refresh","time":"08-01 12:32:24","target":"flowy_server::af_cloud::server"}
+{"msg":"[INIT - EVENT] using ai model: DefaultModel","time":"08-01 12:32:24","target":"client_api::http"}
+{"msg":"[INIT - EVENT] Prepare user data migration","time":"08-01 12:32:24","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 TRY_INITIAL_USER_AWARENESS - START]","time":"08-01 12:32:24","target":"flowy_user::user_manager::manager_user_awareness"}
+{"msg":"[TRY_INITIAL_USER_AWARENESS - END]","time":"08-01 12:32:24","target":"flowy_user::user_manager::manager_user_awareness","elapsed_milliseconds":0}
+{"msg":"get collab:workspace_id: ff929973-633a-4323-841d-df458c83b369, object_id: be14620b-222a-51b3-a529-e61abebe03c6, collab_type: UserAwareness","time":"08-01 12:32:24","target":"client_api::native::http_native"}
+{"msg":"[INIT - EVENT] 302396480654675968 cloud sync: true","time":"08-01 12:32:24","target":"flowy_server::af_cloud::server"}
+{"msg":"[🟢 INITIALIZE - START]","time":"08-01 12:32:24","target":"flowy_folder::manager_init","workspace_id":"ff929973-633a-4323-841d-df458c83b369","uid":302396480654675968}
+{"msg":"[INITIALIZE - EVENT] Init workspace: ff929973-633a-4323-841d-df458c83b369 from: LocalDisk","time":"08-01 12:32:24","target":"flowy_folder::manager_init","workspace_id":"ff929973-633a-4323-841d-df458c83b369","uid":302396480654675968}
+{"msg":"[INITIALIZE - EVENT] Init folder from local disk","time":"08-01 12:32:24","target":"flowy_folder::manager_init","workspace_id":"ff929973-633a-4323-841d-df458c83b369","uid":302396480654675968}
+{"msg":"[INITIALIZE - END]","time":"08-01 12:32:24","target":"flowy_folder::manager_init","workspace_id":"ff929973-633a-4323-841d-df458c83b369","elapsed_milliseconds":108,"uid":302396480654675968}
+{"msg":"[INIT - EVENT] open aggregate database views object: ff05ede9-9db8-4d17-93f8-6ed83a2b14ea","time":"08-01 12:32:24","target":"flowy_database2::manager"}
+{"msg":"[INIT - END]","time":"08-01 12:32:24","target":"flowy_core","elapsed_milliseconds":487}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:32:24","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:32:24","target":"client_api::http"}
+{"msg":"[Flutter]: [CachedRecentService] Initialized","time":"08-01 12:32:24","target":"dart_ffi"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:32:24","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:32:24","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 TRY_INITIAL_USER_AWARENESS - START]","time":"08-01 12:32:24","target":"flowy_user::user_manager::manager_user_awareness"}
+{"msg":"[🟢 GET_WORKSPACES - START]","time":"08-01 12:32:24","target":"client_api::http"}
+{"msg":"[Flutter]: init workspace, current workspace: ff929973-633a-4323-841d-df458c83b369, workspaces: (ff929973-633a-4323-841d-df458c83b369, 6cc10c62-f1ad-4c49-a714-597691e0f58f), isCollabWorkspaceOn: true","time":"08-01 12:32:24","target":"dart_ffi"}
+{"msg":"[🟢 GET_WORKSPACE_MEMBER - START]","time":"08-01 12:32:24","target":"client_api::http_member"}
+{"msg":"[🟢 GET_WORKSPACE_USAGE - START]","time":"08-01 12:32:24","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"Open view: 2c1518bd-bb25-4447-bd8a-25a8fd4deba8","time":"08-01 12:32:24","target":"flowy_folder::manager"}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"08-01 12:32:24","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"08-01 12:32:24","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":25}
+{"msg":"request_id: \"b093179ade25f0feeb551f4c468eb1f2\"","time":"08-01 12:32:24","target":"client_api::http"}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"00e429e5a88df4dc34e240c4f897bc49\"","time":"08-01 12:32:25","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:32:25","target":"client_api::http","elapsed_milliseconds":795}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:32:25","target":"flowy_user::user_manager::manager","elapsed_milliseconds":795}
+{"msg":"[GET_WORKSPACES - EVENT] request_id: \"685226711486d78579377897a497109c\"","time":"08-01 12:32:25","target":"client_api::http"}
+{"msg":"[GET_WORKSPACES - END]","time":"08-01 12:32:25","target":"client_api::http","elapsed_milliseconds":835}
+{"msg":"[GET_WORKSPACE_MEMBER - EVENT] request_id: \"45e741f4067ee494ed9fe90b4dfacb55\"","time":"08-01 12:32:25","target":"client_api::http"}
+{"msg":"[GET_WORKSPACE_MEMBER - END]","time":"08-01 12:32:25","target":"client_api::http_member","elapsed_milliseconds":834}
+{"msg":"[GET_WORKSPACE_USAGE - END]","time":"08-01 12:32:25","target":"flowy_user::user_manager::manager_user_workspace","elapsed_milliseconds":942,"workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:32:25","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:32:25","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[BACKUP_COLLAB_DB - EVENT] Current backup: 11","time":"08-01 12:32:25","target":"flowy_user::services::db"}
+{"msg":"[BACKUP_COLLAB_DB - EVENT] Remove old backup file: \"/home/tobi/.local/share/AppFlowy/data_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk/302396480654675968/collab_db_history/collab_db_20240708.zip\"","time":"08-01 12:32:25","target":"flowy_user::services::db"}
+{"msg":"[BACKUP_COLLAB_DB - END]","time":"08-01 12:32:25","target":"flowy_user::services::db","elapsed_milliseconds":1772}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:32:29","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:32:29","target":"client_api::http"}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"24ecb606c7524b270e9d8063a3a4b6a2\"","time":"08-01 12:32:30","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:32:30","target":"client_api::http","elapsed_milliseconds":306}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:32:30","target":"flowy_user::user_manager::manager","elapsed_milliseconds":307}
+{"msg":"🔵websocket start connecting","time":"08-01 12:32:31","target":"client_api::native::retry"}
+{"msg":"[websocket] state: Connecting","time":"08-01 12:32:31","target":"flowy_server::af_cloud::server"}
+{"msg":"🟢websocket connect success","time":"08-01 12:32:31","target":"client_api::native::retry"}
+{"msg":"[websocket] state: Connected","time":"08-01 12:32:31","target":"flowy_server::af_cloud::server"}
+{"msg":"[🟢 GET_CLOUD_CONFIG_HANDLER - START]","time":"08-01 12:32:32","target":"flowy_user::event_handler"}
+{"msg":"[GET_CLOUD_CONFIG_HANDLER - END]","time":"08-01 12:32:32","target":"flowy_user::event_handler","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_WORKSPACE_USAGE - START]","time":"08-01 12:32:37","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[🟢 GET_WORKSPACE_SUBSCRIPTION_INFO - START]","time":"08-01 12:32:37","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[GET_WORKSPACE_SUBSCRIPTION_INFO - EVENT] std::env::var(APPFLOWY_CLOUD_BASE_BILLING_URL): environment variable not found","time":"08-01 12:32:37","target":"client_api::http_billing","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[GET_WORKSPACE_SUBSCRIPTION_INFO - END]","time":"08-01 12:32:37","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\"","elapsed_milliseconds":266}
+{"msg":"[GET_WORKSPACE_USAGE - END]","time":"08-01 12:32:37","target":"flowy_user::user_manager::manager_user_workspace","elapsed_milliseconds":432,"workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"prepare upload task: 0","time":"08-01 12:32:53","target":"flowy_storage::manager"}
+{"msg":"[🟢 GET_WORKSPACE_SUBSCRIPTION_INFO - START]","time":"08-01 12:32:55","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[GET_WORKSPACE_SUBSCRIPTION_INFO - END]","time":"08-01 12:32:55","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\"","elapsed_milliseconds":372}
+{"msg":"[🟢 GET_BILLING_PORTAL_URL - START]","time":"08-01 12:32:55","target":"flowy_user::user_manager::manager_user_workspace"}
+{"msg":"[GET_BILLING_PORTAL_URL - EVENT] flowy_user::user_manager::manager_user_workspace","time":"08-01 12:32:56","target":"flowy_user::user_manager::manager_user_workspace","error":"InvalidParams: user is not a customer: 9a0a6a92-4eae-4f63-bfae-b1a7ad0f3673"}
+{"msg":"[GET_BILLING_PORTAL_URL - END]","time":"08-01 12:32:56","target":"flowy_user::user_manager::manager_user_workspace","elapsed_milliseconds":271}
+{"msg":"flowy_user::event_handler","time":"08-01 12:32:56","target":"flowy_user::event_handler","error":"InvalidParams: user is not a customer: 9a0a6a92-4eae-4f63-bfae-b1a7ad0f3673"}
+{"msg":"[Flutter]: Error fetching billing portal: code: InvalidParams\nmsg: user is not a customer: 9a0a6a92-4eae-4f63-bfae-b1a7ad0f3673\n","time":"08-01 12:32:56","target":"dart_ffi"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:32:58","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:32:58","target":"client_api::http"}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"2c2f1ab417f3539c3b0f60df0c995775\"","time":"08-01 12:32:58","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:32:58","target":"client_api::http","elapsed_milliseconds":382}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:32:58","target":"flowy_user::user_manager::manager","elapsed_milliseconds":382}
+{"msg":"[🟢 GET_WORKSPACES - START]","time":"08-01 12:32:59","target":"client_api::http"}
+{"msg":"[🟢 GET_WORKSPACE_MEMBERS - START]","time":"08-01 12:32:59","target":"client_api::http_member"}
+{"msg":"[GET_WORKSPACES - EVENT] request_id: \"d48a9b56e34fb701cc0abb7e0b8f4f72\"","time":"08-01 12:33:00","target":"client_api::http"}
+{"msg":"[GET_WORKSPACE_MEMBERS - EVENT] request_id: \"00f4a1d552d0b7e48fd72e8910405ce5\"","time":"08-01 12:33:00","target":"client_api::http"}
+{"msg":"[GET_WORKSPACE_MEMBERS - END]","time":"08-01 12:33:00","target":"client_api::http_member","elapsed_milliseconds":352}
+{"msg":"[GET_WORKSPACES - END]","time":"08-01 12:33:00","target":"client_api::http","elapsed_milliseconds":358}
+{"msg":"[🟢 GET_WORKSPACE_SUBSCRIPTION_INFO - START]","time":"08-01 12:33:02","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[🟢 GET_WORKSPACE_MEMBERS - START]","time":"08-01 12:33:02","target":"client_api::http_member"}
+{"msg":"[GET_WORKSPACE_SUBSCRIPTION_INFO - END]","time":"08-01 12:33:03","target":"flowy_user::user_manager::manager_user_workspace","elapsed_milliseconds":351,"workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[GET_WORKSPACE_MEMBERS - EVENT] request_id: \"354113916229272f98367443ff0d4523\"","time":"08-01 12:33:03","target":"client_api::http"}
+{"msg":"[GET_WORKSPACE_MEMBERS - END]","time":"08-01 12:33:03","target":"client_api::http_member","elapsed_milliseconds":351}
+{"msg":"[🟢 USER_DIR - START]","time":"08-01 12:33:05","target":"flowy_user::user_manager::manager"}
+{"msg":"[USER_DIR - END]","time":"08-01 12:33:05","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: PathAccessException: Deletion failed, path = '/tmp' (OS Error: Permission denied, errno = 13)","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 63213cbe-dcee-5f73-884e-0cd91c236d0a, parentViewId: 63213cbe-dcee-5f73-884e-0cd91c236d0a, name: Untitled, createTime: 1710523760, createdBy: 302396480654675968, lastEdited: 1710523760, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: e953b349-9d73-5d4c-8ea4-01a969c7ddfc, parentViewId: e953b349-9d73-5d4c-8ea4-01a969c7ddfc, name: Untitled, createTime: 1710618959, createdBy: 302396480654675968, lastEdited: 1710618959, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: dd191f34-db35-5cac-b05a-a2d4a74e7f1d, parentViewId: dd191f34-db35-5cac-b05a-a2d4a74e7f1d, name: Untitled, createTime: 1713732257, createdBy: 302396480654675968, lastEdited: 1713732257, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 9dc9540c-abfb-5f19-899b-a0f66614fe8b, parentViewId: 9dc9540c-abfb-5f19-899b-a0f66614fe8b, name: Untitled, createTime: 1718954757, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1718954757, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 3eb92907-8c16-54af-a914-7ab888edcdb2, parentViewId: 3eb92907-8c16-54af-a914-7ab888edcdb2, name: Untitled, createTime: 1715962618, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1715962618, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 018eb485-51ff-5759-bbc7-29884e023345, parentViewId: 018eb485-51ff-5759-bbc7-29884e023345, name: Untitled, createTime: 1713733814, createdBy: 302396480654675968, lastEdited: 1713733814, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: e73e78a3-5146-568b-8fa5-e7a00575b82e, parentViewId: e73e78a3-5146-568b-8fa5-e7a00575b82e, name: Untitled, createTime: 1713734069, createdBy: 302396480654675968, lastEdited: 1713734069, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: ba70bdd8-ea59-5f57-b77f-8d0bf8c111b9, parentViewId: ba70bdd8-ea59-5f57-b77f-8d0bf8c111b9, name: Untitled, createTime: 1713735246, createdBy: 302396480654675968, lastEdited: 1713735246, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 7574d976-b066-51a3-b657-afa0b974f82e, parentViewId: 7574d976-b066-51a3-b657-afa0b974f82e, name: Untitled, createTime: 1720221107, createdBy: 302396480654675968, lastEdited: 1720221107, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 604688b5-0ada-5883-af79-b3158b169dc8, parentViewId: 604688b5-0ada-5883-af79-b3158b169dc8, name: Untitled, createTime: 1710791814, createdBy: 302396480654675968, lastEdited: 1710791814, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 0b7f4750-594f-5a52-8f45-019ea8a0e2da, parentViewId: 0b7f4750-594f-5a52-8f45-019ea8a0e2da, name: Untitled, createTime: 1710251115, createdBy: 302396480654675968, lastEdited: 1710251115, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 91511e73-ecec-5132-9ab9-0c188b104166, parentViewId: 91511e73-ecec-5132-9ab9-0c188b104166, name: Untitled, createTime: 1713732075, createdBy: 302396480654675968, lastEdited: 1713732075, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 0228e632-bcb5-55ca-bbe3-e0bf43480ed5, parentViewId: 0228e632-bcb5-55ca-bbe3-e0bf43480ed5, name: Untitled, createTime: 1715791518, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1715791518, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: cf5541f0-1f35-522b-bce1-e903ca3fe51f, parentViewId: cf5541f0-1f35-522b-bce1-e903ca3fe51f, name: Untitled, createTime: 1710070794, createdBy: 302396480654675968, lastEdited: 1710070794, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 1ab4698b-fd4c-56b7-94dc-8adf48c134c3, parentViewId: 1ab4698b-fd4c-56b7-94dc-8adf48c134c3, name: Untitled, createTime: 1715791641, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1715791641, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 8b70f4bf-4f5d-5c39-ad8e-08e8647ec41b, parentViewId: 8b70f4bf-4f5d-5c39-ad8e-08e8647ec41b, name: Untitled, createTime: 1719268737, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1719268737, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 3fd99f10-bbe7-564b-8c23-eec643b13fe7, parentViewId: 3fd99f10-bbe7-564b-8c23-eec643b13fe7, name: Untitled, createTime: 1710070928, createdBy: 302396480654675968, lastEdited: 1710070928, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 41a078c9-394b-5a0b-87fd-6516805078ee, parentViewId: 41a078c9-394b-5a0b-87fd-6516805078ee, name: Untitled, createTime: 1710786485, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1719861660, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 1f2ea931-1086-5f7b-afb7-4e6a5c96205d, parentViewId: 1f2ea931-1086-5f7b-afb7-4e6a5c96205d, name: Untitled, createTime: 1709906293, createdBy: 302396480654675968, lastEdited: 1709906293, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 29704362-0711-511f-afb6-14357648fd45, parentViewId: 29704362-0711-511f-afb6-14357648fd45, name: Untitled, createTime: 1716303347, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1716303347, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 75fddb40-2474-584f-9eb2-91fc2d9f3fa3, parentViewId: 75fddb40-2474-584f-9eb2-91fc2d9f3fa3, name: Untitled, createTime: 1720220826, createdBy: 302396480654675968, lastEdited: 1720220826, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: e83ea5d9-af20-5d34-b770-b48957243058, parentViewId: e83ea5d9-af20-5d34-b770-b48957243058, name: Untitled, createTime: 1720307476, createdBy: 302396480654675968, lastEdited: 1720307476, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 4d65d19c-d202-5a9e-b14b-f16eb2a8d4cc, parentViewId: 4d65d19c-d202-5a9e-b14b-f16eb2a8d4cc, name: Untitled, createTime: 1720221482, createdBy: 302396480654675968, lastEdited: 1720221482, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 364020ea-3055-58db-a552-1722e82f3422, parentViewId: 364020ea-3055-58db-a552-1722e82f3422, name: Untitled, createTime: 1713735595, createdBy: 302396480654675968, lastEdited: 1713735595, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 34944536-f758-5688-ae7a-449164b2cdc3, parentViewId: 34944536-f758-5688-ae7a-449164b2cdc3, name: Untitled, createTime: 1720465571, createdBy: 302396480654675968, lastEdited: 1720465571, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: f77d241c-9aac-5d0e-bde2-973cf46549e8, parentViewId: f77d241c-9aac-5d0e-bde2-973cf46549e8, name: Untitled, createTime: 1720220942, createdBy: 302396480654675968, lastEdited: 1720220942, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 6c9c530d-a9b3-5fb9-8803-74a28205c699, parentViewId: 6c9c530d-a9b3-5fb9-8803-74a28205c699, name: Untitled, createTime: 1711825312, createdBy: 302396480654675968, lastEdited: 1711825312, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: c305d1a6-5ce5-58d9-a2bd-8ac8e6342a8c, parentViewId: c305d1a6-5ce5-58d9-a2bd-8ac8e6342a8c, name: Untitled, createTime: 1715791669, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1715791669, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 5ae8f3d7-b03b-5420-89dd-1ba278e976f3, parentViewId: 5ae8f3d7-b03b-5420-89dd-1ba278e976f3, name: Untitled, createTime: 1710092442, createdBy: 302396480654675968, lastEdited: 1710092442, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 90eda87b-1529-5c7f-ac8e-8c11e2f284d2, parentViewId: 90eda87b-1529-5c7f-ac8e-8c11e2f284d2, name: Untitled, createTime: 1715266720, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1715266720, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 982f9b07-ee89-521c-b0f0-8cb38083c0db, parentViewId: 982f9b07-ee89-521c-b0f0-8cb38083c0db, name: Untitled, createTime: 1710092254, createdBy: 302396480654675968, lastEdited: 1710092254, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 3d41a29d-28b8-5b48-bd73-9686e3192689, parentViewId: 3d41a29d-28b8-5b48-bd73-9686e3192689, name: Untitled, createTime: 1720857810, createdBy: 302396480654675968, lastEdited: 1720857810, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 48d00978-e0e1-51eb-bdd0-34014402f99f, parentViewId: 48d00978-e0e1-51eb-bdd0-34014402f99f, name: Untitled, createTime: 1710092297, createdBy: 302396480654675968, lastEdited: 1710092297, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 3a69632d-b9a4-54c0-b01a-94dd521acee3, parentViewId: 3a69632d-b9a4-54c0-b01a-94dd521acee3, name: Untitled, createTime: 1710251111, createdBy: 302396480654675968, lastEdited: 1710251111, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 2e5a19eb-a104-58f9-a07b-0598f65e40b3, parentViewId: 2e5a19eb-a104-58f9-a07b-0598f65e40b3, name: Untitled, createTime: 1709938410, createdBy: 302396480654675968, lastEdited: 1709938410, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 34e9d2e8-d49d-545d-b173-1de11ef7cd1e, parentViewId: 34e9d2e8-d49d-545d-b173-1de11ef7cd1e, name: Untitled, createTime: 1722258033, createdBy: 302396480654675968, lastEdited: 1722258033, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: d284c0f3-b466-5eae-9e7c-0a783aed770b, parentViewId: d284c0f3-b466-5eae-9e7c-0a783aed770b, name: Untitled, createTime: 1715984943, extra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}, createdBy: 302396480654675968, lastEdited: 1715984943, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 1fceab7e-8c8f-5652-ae93-9eb2970d705a, parentViewId: 1fceab7e-8c8f-5652-ae93-9eb2970d705a, name: Untitled, createTime: 1713734329, createdBy: 302396480654675968, lastEdited: 1713734329, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: b8f09a0b-579c-5d57-af7e-b542710972b0, parentViewId: b8f09a0b-579c-5d57-af7e-b542710972b0, name: Untitled, createTime: 1710092325, createdBy: 302396480654675968, lastEdited: 1710092325, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 4920bcf7-d80f-54c2-b501-f58828bf6421, parentViewId: 4920bcf7-d80f-54c2-b501-f58828bf6421, name: Untitled, createTime: 1714850189, createdBy: 302396480654675968, lastEdited: 1714850189, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 8d31780d-0758-508a-99a6-50b13cf19627, parentViewId: 8d31780d-0758-508a-99a6-50b13cf19627, name: Untitled, createTime: 1713914598, createdBy: 302396480654675968, lastEdited: 1713914598, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: de039bc9-e3b3-53cf-881b-7bc4ba0e8ba6, parentViewId: de039bc9-e3b3-53cf-881b-7bc4ba0e8ba6, name: Untitled, createTime: 1713733921, createdBy: 302396480654675968, lastEdited: 1713733921, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] found an issue: view is not in the parent view's child views, view: {id: 9ca12a1a-bb5f-535a-82a3-190f54e104c4, parentViewId: 9ca12a1a-bb5f-535a-82a3-190f54e104c4, name: Untitled, createTime: 1713914330, createdBy: 302396480654675968, lastEdited: 1713914330, lastEditedBy: 302396480654675968}}","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] start to fix 43 unlistedChildViews ...","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] move view: id: 63213cbe-dcee-5f73-884e-0cd91c236d0a\nparentViewId: 63213cbe-dcee-5f73-884e-0cd91c236d0a\nname: Untitled\ncreateTime: 1710523760\ncreatedBy: 302396480654675968\nlastEdited: 1710523760\nlastEditedBy: 302396480654675968\n to its parent view 63213cbe-dcee-5f73-884e-0cd91c236d0a","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 63213cbe-dcee-5f73-884e-0cd91c236d0a is not in parent 63213cbe-dcee-5f73-884e-0cd91c236d0a.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: e953b349-9d73-5d4c-8ea4-01a969c7ddfc\nparentViewId: e953b349-9d73-5d4c-8ea4-01a969c7ddfc\nname: Untitled\ncreateTime: 1710618959\ncreatedBy: 302396480654675968\nlastEdited: 1710618959\nlastEditedBy: 302396480654675968\n to its parent view e953b349-9d73-5d4c-8ea4-01a969c7ddfc","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view e953b349-9d73-5d4c-8ea4-01a969c7ddfc is not in parent e953b349-9d73-5d4c-8ea4-01a969c7ddfc.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: dd191f34-db35-5cac-b05a-a2d4a74e7f1d\nparentViewId: dd191f34-db35-5cac-b05a-a2d4a74e7f1d\nname: Untitled\ncreateTime: 1713732257\ncreatedBy: 302396480654675968\nlastEdited: 1713732257\nlastEditedBy: 302396480654675968\n to its parent view dd191f34-db35-5cac-b05a-a2d4a74e7f1d","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view dd191f34-db35-5cac-b05a-a2d4a74e7f1d is not in parent dd191f34-db35-5cac-b05a-a2d4a74e7f1d.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 9dc9540c-abfb-5f19-899b-a0f66614fe8b\nparentViewId: 9dc9540c-abfb-5f19-899b-a0f66614fe8b\nname: Untitled\ncreateTime: 1718954757\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1718954757\nlastEditedBy: 302396480654675968\n to its parent view 9dc9540c-abfb-5f19-899b-a0f66614fe8b","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 9dc9540c-abfb-5f19-899b-a0f66614fe8b is not in parent 9dc9540c-abfb-5f19-899b-a0f66614fe8b.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 3eb92907-8c16-54af-a914-7ab888edcdb2\nparentViewId: 3eb92907-8c16-54af-a914-7ab888edcdb2\nname: Untitled\ncreateTime: 1715962618\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1715962618\nlastEditedBy: 302396480654675968\n to its parent view 3eb92907-8c16-54af-a914-7ab888edcdb2","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 3eb92907-8c16-54af-a914-7ab888edcdb2 is not in parent 3eb92907-8c16-54af-a914-7ab888edcdb2.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 018eb485-51ff-5759-bbc7-29884e023345\nparentViewId: 018eb485-51ff-5759-bbc7-29884e023345\nname: Untitled\ncreateTime: 1713733814\ncreatedBy: 302396480654675968\nlastEdited: 1713733814\nlastEditedBy: 302396480654675968\n to its parent view 018eb485-51ff-5759-bbc7-29884e023345","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 018eb485-51ff-5759-bbc7-29884e023345 is not in parent 018eb485-51ff-5759-bbc7-29884e023345.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: e73e78a3-5146-568b-8fa5-e7a00575b82e\nparentViewId: e73e78a3-5146-568b-8fa5-e7a00575b82e\nname: Untitled\ncreateTime: 1713734069\ncreatedBy: 302396480654675968\nlastEdited: 1713734069\nlastEditedBy: 302396480654675968\n to its parent view e73e78a3-5146-568b-8fa5-e7a00575b82e","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view e73e78a3-5146-568b-8fa5-e7a00575b82e is not in parent e73e78a3-5146-568b-8fa5-e7a00575b82e.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: ba70bdd8-ea59-5f57-b77f-8d0bf8c111b9\nparentViewId: ba70bdd8-ea59-5f57-b77f-8d0bf8c111b9\nname: Untitled\ncreateTime: 1713735246\ncreatedBy: 302396480654675968\nlastEdited: 1713735246\nlastEditedBy: 302396480654675968\n to its parent view ba70bdd8-ea59-5f57-b77f-8d0bf8c111b9","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view ba70bdd8-ea59-5f57-b77f-8d0bf8c111b9 is not in parent ba70bdd8-ea59-5f57-b77f-8d0bf8c111b9.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 7574d976-b066-51a3-b657-afa0b974f82e\nparentViewId: 7574d976-b066-51a3-b657-afa0b974f82e\nname: Untitled\ncreateTime: 1720221107\ncreatedBy: 302396480654675968\nlastEdited: 1720221107\nlastEditedBy: 302396480654675968\n to its parent view 7574d976-b066-51a3-b657-afa0b974f82e","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 7574d976-b066-51a3-b657-afa0b974f82e is not in parent 7574d976-b066-51a3-b657-afa0b974f82e.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 604688b5-0ada-5883-af79-b3158b169dc8\nparentViewId: 604688b5-0ada-5883-af79-b3158b169dc8\nname: Untitled\ncreateTime: 1710791814\ncreatedBy: 302396480654675968\nlastEdited: 1710791814\nlastEditedBy: 302396480654675968\n to its parent view 604688b5-0ada-5883-af79-b3158b169dc8","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 604688b5-0ada-5883-af79-b3158b169dc8 is not in parent 604688b5-0ada-5883-af79-b3158b169dc8.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 0b7f4750-594f-5a52-8f45-019ea8a0e2da\nparentViewId: 0b7f4750-594f-5a52-8f45-019ea8a0e2da\nname: Untitled\ncreateTime: 1710251115\ncreatedBy: 302396480654675968\nlastEdited: 1710251115\nlastEditedBy: 302396480654675968\n to its parent view 0b7f4750-594f-5a52-8f45-019ea8a0e2da","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 0b7f4750-594f-5a52-8f45-019ea8a0e2da is not in parent 0b7f4750-594f-5a52-8f45-019ea8a0e2da.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 91511e73-ecec-5132-9ab9-0c188b104166\nparentViewId: 91511e73-ecec-5132-9ab9-0c188b104166\nname: Untitled\ncreateTime: 1713732075\ncreatedBy: 302396480654675968\nlastEdited: 1713732075\nlastEditedBy: 302396480654675968\n to its parent view 91511e73-ecec-5132-9ab9-0c188b104166","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 91511e73-ecec-5132-9ab9-0c188b104166 is not in parent 91511e73-ecec-5132-9ab9-0c188b104166.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 0228e632-bcb5-55ca-bbe3-e0bf43480ed5\nparentViewId: 0228e632-bcb5-55ca-bbe3-e0bf43480ed5\nname: Untitled\ncreateTime: 1715791518\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1715791518\nlastEditedBy: 302396480654675968\n to its parent view 0228e632-bcb5-55ca-bbe3-e0bf43480ed5","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 0228e632-bcb5-55ca-bbe3-e0bf43480ed5 is not in parent 0228e632-bcb5-55ca-bbe3-e0bf43480ed5.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: cf5541f0-1f35-522b-bce1-e903ca3fe51f\nparentViewId: cf5541f0-1f35-522b-bce1-e903ca3fe51f\nname: Untitled\ncreateTime: 1710070794\ncreatedBy: 302396480654675968\nlastEdited: 1710070794\nlastEditedBy: 302396480654675968\n to its parent view cf5541f0-1f35-522b-bce1-e903ca3fe51f","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view cf5541f0-1f35-522b-bce1-e903ca3fe51f is not in parent cf5541f0-1f35-522b-bce1-e903ca3fe51f.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 1ab4698b-fd4c-56b7-94dc-8adf48c134c3\nparentViewId: 1ab4698b-fd4c-56b7-94dc-8adf48c134c3\nname: Untitled\ncreateTime: 1715791641\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1715791641\nlastEditedBy: 302396480654675968\n to its parent view 1ab4698b-fd4c-56b7-94dc-8adf48c134c3","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 1ab4698b-fd4c-56b7-94dc-8adf48c134c3 is not in parent 1ab4698b-fd4c-56b7-94dc-8adf48c134c3.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 8b70f4bf-4f5d-5c39-ad8e-08e8647ec41b\nparentViewId: 8b70f4bf-4f5d-5c39-ad8e-08e8647ec41b\nname: Untitled\ncreateTime: 1719268737\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1719268737\nlastEditedBy: 302396480654675968\n to its parent view 8b70f4bf-4f5d-5c39-ad8e-08e8647ec41b","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 8b70f4bf-4f5d-5c39-ad8e-08e8647ec41b is not in parent 8b70f4bf-4f5d-5c39-ad8e-08e8647ec41b.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 3fd99f10-bbe7-564b-8c23-eec643b13fe7\nparentViewId: 3fd99f10-bbe7-564b-8c23-eec643b13fe7\nname: Untitled\ncreateTime: 1710070928\ncreatedBy: 302396480654675968\nlastEdited: 1710070928\nlastEditedBy: 302396480654675968\n to its parent view 3fd99f10-bbe7-564b-8c23-eec643b13fe7","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 3fd99f10-bbe7-564b-8c23-eec643b13fe7 is not in parent 3fd99f10-bbe7-564b-8c23-eec643b13fe7.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 41a078c9-394b-5a0b-87fd-6516805078ee\nparentViewId: 41a078c9-394b-5a0b-87fd-6516805078ee\nname: Untitled\ncreateTime: 1710786485\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1719861660\nlastEditedBy: 302396480654675968\n to its parent view 41a078c9-394b-5a0b-87fd-6516805078ee","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 41a078c9-394b-5a0b-87fd-6516805078ee is not in parent 41a078c9-394b-5a0b-87fd-6516805078ee.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 1f2ea931-1086-5f7b-afb7-4e6a5c96205d\nparentViewId: 1f2ea931-1086-5f7b-afb7-4e6a5c96205d\nname: Untitled\ncreateTime: 1709906293\ncreatedBy: 302396480654675968\nlastEdited: 1709906293\nlastEditedBy: 302396480654675968\n to its parent view 1f2ea931-1086-5f7b-afb7-4e6a5c96205d","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 1f2ea931-1086-5f7b-afb7-4e6a5c96205d is not in parent 1f2ea931-1086-5f7b-afb7-4e6a5c96205d.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 29704362-0711-511f-afb6-14357648fd45\nparentViewId: 29704362-0711-511f-afb6-14357648fd45\nname: Untitled\ncreateTime: 1716303347\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1716303347\nlastEditedBy: 302396480654675968\n to its parent view 29704362-0711-511f-afb6-14357648fd45","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 29704362-0711-511f-afb6-14357648fd45 is not in parent 29704362-0711-511f-afb6-14357648fd45.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 75fddb40-2474-584f-9eb2-91fc2d9f3fa3\nparentViewId: 75fddb40-2474-584f-9eb2-91fc2d9f3fa3\nname: Untitled\ncreateTime: 1720220826\ncreatedBy: 302396480654675968\nlastEdited: 1720220826\nlastEditedBy: 302396480654675968\n to its parent view 75fddb40-2474-584f-9eb2-91fc2d9f3fa3","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 75fddb40-2474-584f-9eb2-91fc2d9f3fa3 is not in parent 75fddb40-2474-584f-9eb2-91fc2d9f3fa3.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: e83ea5d9-af20-5d34-b770-b48957243058\nparentViewId: e83ea5d9-af20-5d34-b770-b48957243058\nname: Untitled\ncreateTime: 1720307476\ncreatedBy: 302396480654675968\nlastEdited: 1720307476\nlastEditedBy: 302396480654675968\n to its parent view e83ea5d9-af20-5d34-b770-b48957243058","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view e83ea5d9-af20-5d34-b770-b48957243058 is not in parent e83ea5d9-af20-5d34-b770-b48957243058.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 4d65d19c-d202-5a9e-b14b-f16eb2a8d4cc\nparentViewId: 4d65d19c-d202-5a9e-b14b-f16eb2a8d4cc\nname: Untitled\ncreateTime: 1720221482\ncreatedBy: 302396480654675968\nlastEdited: 1720221482\nlastEditedBy: 302396480654675968\n to its parent view 4d65d19c-d202-5a9e-b14b-f16eb2a8d4cc","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 4d65d19c-d202-5a9e-b14b-f16eb2a8d4cc is not in parent 4d65d19c-d202-5a9e-b14b-f16eb2a8d4cc.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 364020ea-3055-58db-a552-1722e82f3422\nparentViewId: 364020ea-3055-58db-a552-1722e82f3422\nname: Untitled\ncreateTime: 1713735595\ncreatedBy: 302396480654675968\nlastEdited: 1713735595\nlastEditedBy: 302396480654675968\n to its parent view 364020ea-3055-58db-a552-1722e82f3422","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 364020ea-3055-58db-a552-1722e82f3422 is not in parent 364020ea-3055-58db-a552-1722e82f3422.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 34944536-f758-5688-ae7a-449164b2cdc3\nparentViewId: 34944536-f758-5688-ae7a-449164b2cdc3\nname: Untitled\ncreateTime: 1720465571\ncreatedBy: 302396480654675968\nlastEdited: 1720465571\nlastEditedBy: 302396480654675968\n to its parent view 34944536-f758-5688-ae7a-449164b2cdc3","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 34944536-f758-5688-ae7a-449164b2cdc3 is not in parent 34944536-f758-5688-ae7a-449164b2cdc3.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: f77d241c-9aac-5d0e-bde2-973cf46549e8\nparentViewId: f77d241c-9aac-5d0e-bde2-973cf46549e8\nname: Untitled\ncreateTime: 1720220942\ncreatedBy: 302396480654675968\nlastEdited: 1720220942\nlastEditedBy: 302396480654675968\n to its parent view f77d241c-9aac-5d0e-bde2-973cf46549e8","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view f77d241c-9aac-5d0e-bde2-973cf46549e8 is not in parent f77d241c-9aac-5d0e-bde2-973cf46549e8.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 6c9c530d-a9b3-5fb9-8803-74a28205c699\nparentViewId: 6c9c530d-a9b3-5fb9-8803-74a28205c699\nname: Untitled\ncreateTime: 1711825312\ncreatedBy: 302396480654675968\nlastEdited: 1711825312\nlastEditedBy: 302396480654675968\n to its parent view 6c9c530d-a9b3-5fb9-8803-74a28205c699","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 6c9c530d-a9b3-5fb9-8803-74a28205c699 is not in parent 6c9c530d-a9b3-5fb9-8803-74a28205c699.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: c305d1a6-5ce5-58d9-a2bd-8ac8e6342a8c\nparentViewId: c305d1a6-5ce5-58d9-a2bd-8ac8e6342a8c\nname: Untitled\ncreateTime: 1715791669\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1715791669\nlastEditedBy: 302396480654675968\n to its parent view c305d1a6-5ce5-58d9-a2bd-8ac8e6342a8c","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view c305d1a6-5ce5-58d9-a2bd-8ac8e6342a8c is not in parent c305d1a6-5ce5-58d9-a2bd-8ac8e6342a8c.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 5ae8f3d7-b03b-5420-89dd-1ba278e976f3\nparentViewId: 5ae8f3d7-b03b-5420-89dd-1ba278e976f3\nname: Untitled\ncreateTime: 1710092442\ncreatedBy: 302396480654675968\nlastEdited: 1710092442\nlastEditedBy: 302396480654675968\n to its parent view 5ae8f3d7-b03b-5420-89dd-1ba278e976f3","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 5ae8f3d7-b03b-5420-89dd-1ba278e976f3 is not in parent 5ae8f3d7-b03b-5420-89dd-1ba278e976f3.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 90eda87b-1529-5c7f-ac8e-8c11e2f284d2\nparentViewId: 90eda87b-1529-5c7f-ac8e-8c11e2f284d2\nname: Untitled\ncreateTime: 1715266720\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1715266720\nlastEditedBy: 302396480654675968\n to its parent view 90eda87b-1529-5c7f-ac8e-8c11e2f284d2","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 90eda87b-1529-5c7f-ac8e-8c11e2f284d2 is not in parent 90eda87b-1529-5c7f-ac8e-8c11e2f284d2.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 982f9b07-ee89-521c-b0f0-8cb38083c0db\nparentViewId: 982f9b07-ee89-521c-b0f0-8cb38083c0db\nname: Untitled\ncreateTime: 1710092254\ncreatedBy: 302396480654675968\nlastEdited: 1710092254\nlastEditedBy: 302396480654675968\n to its parent view 982f9b07-ee89-521c-b0f0-8cb38083c0db","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 982f9b07-ee89-521c-b0f0-8cb38083c0db is not in parent 982f9b07-ee89-521c-b0f0-8cb38083c0db.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 3d41a29d-28b8-5b48-bd73-9686e3192689\nparentViewId: 3d41a29d-28b8-5b48-bd73-9686e3192689\nname: Untitled\ncreateTime: 1720857810\ncreatedBy: 302396480654675968\nlastEdited: 1720857810\nlastEditedBy: 302396480654675968\n to its parent view 3d41a29d-28b8-5b48-bd73-9686e3192689","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 3d41a29d-28b8-5b48-bd73-9686e3192689 is not in parent 3d41a29d-28b8-5b48-bd73-9686e3192689.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 48d00978-e0e1-51eb-bdd0-34014402f99f\nparentViewId: 48d00978-e0e1-51eb-bdd0-34014402f99f\nname: Untitled\ncreateTime: 1710092297\ncreatedBy: 302396480654675968\nlastEdited: 1710092297\nlastEditedBy: 302396480654675968\n to its parent view 48d00978-e0e1-51eb-bdd0-34014402f99f","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 48d00978-e0e1-51eb-bdd0-34014402f99f is not in parent 48d00978-e0e1-51eb-bdd0-34014402f99f.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 3a69632d-b9a4-54c0-b01a-94dd521acee3\nparentViewId: 3a69632d-b9a4-54c0-b01a-94dd521acee3\nname: Untitled\ncreateTime: 1710251111\ncreatedBy: 302396480654675968\nlastEdited: 1710251111\nlastEditedBy: 302396480654675968\n to its parent view 3a69632d-b9a4-54c0-b01a-94dd521acee3","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 3a69632d-b9a4-54c0-b01a-94dd521acee3 is not in parent 3a69632d-b9a4-54c0-b01a-94dd521acee3.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 2e5a19eb-a104-58f9-a07b-0598f65e40b3\nparentViewId: 2e5a19eb-a104-58f9-a07b-0598f65e40b3\nname: Untitled\ncreateTime: 1709938410\ncreatedBy: 302396480654675968\nlastEdited: 1709938410\nlastEditedBy: 302396480654675968\n to its parent view 2e5a19eb-a104-58f9-a07b-0598f65e40b3","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 2e5a19eb-a104-58f9-a07b-0598f65e40b3 is not in parent 2e5a19eb-a104-58f9-a07b-0598f65e40b3.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 34e9d2e8-d49d-545d-b173-1de11ef7cd1e\nparentViewId: 34e9d2e8-d49d-545d-b173-1de11ef7cd1e\nname: Untitled\ncreateTime: 1722258033\ncreatedBy: 302396480654675968\nlastEdited: 1722258033\nlastEditedBy: 302396480654675968\n to its parent view 34e9d2e8-d49d-545d-b173-1de11ef7cd1e","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 34e9d2e8-d49d-545d-b173-1de11ef7cd1e is not in parent 34e9d2e8-d49d-545d-b173-1de11ef7cd1e.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: d284c0f3-b466-5eae-9e7c-0a783aed770b\nparentViewId: d284c0f3-b466-5eae-9e7c-0a783aed770b\nname: Untitled\ncreateTime: 1715984943\nextra: {\"cover\":{\"type\":\"none\",\"value\":\"\"}}\ncreatedBy: 302396480654675968\nlastEdited: 1715984943\nlastEditedBy: 302396480654675968\n to its parent view d284c0f3-b466-5eae-9e7c-0a783aed770b","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view d284c0f3-b466-5eae-9e7c-0a783aed770b is not in parent d284c0f3-b466-5eae-9e7c-0a783aed770b.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 1fceab7e-8c8f-5652-ae93-9eb2970d705a\nparentViewId: 1fceab7e-8c8f-5652-ae93-9eb2970d705a\nname: Untitled\ncreateTime: 1713734329\ncreatedBy: 302396480654675968\nlastEdited: 1713734329\nlastEditedBy: 302396480654675968\n to its parent view 1fceab7e-8c8f-5652-ae93-9eb2970d705a","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 1fceab7e-8c8f-5652-ae93-9eb2970d705a is not in parent 1fceab7e-8c8f-5652-ae93-9eb2970d705a.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: b8f09a0b-579c-5d57-af7e-b542710972b0\nparentViewId: b8f09a0b-579c-5d57-af7e-b542710972b0\nname: Untitled\ncreateTime: 1710092325\ncreatedBy: 302396480654675968\nlastEdited: 1710092325\nlastEditedBy: 302396480654675968\n to its parent view b8f09a0b-579c-5d57-af7e-b542710972b0","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view b8f09a0b-579c-5d57-af7e-b542710972b0 is not in parent b8f09a0b-579c-5d57-af7e-b542710972b0.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 4920bcf7-d80f-54c2-b501-f58828bf6421\nparentViewId: 4920bcf7-d80f-54c2-b501-f58828bf6421\nname: Untitled\ncreateTime: 1714850189\ncreatedBy: 302396480654675968\nlastEdited: 1714850189\nlastEditedBy: 302396480654675968\n to its parent view 4920bcf7-d80f-54c2-b501-f58828bf6421","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 4920bcf7-d80f-54c2-b501-f58828bf6421 is not in parent 4920bcf7-d80f-54c2-b501-f58828bf6421.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 8d31780d-0758-508a-99a6-50b13cf19627\nparentViewId: 8d31780d-0758-508a-99a6-50b13cf19627\nname: Untitled\ncreateTime: 1713914598\ncreatedBy: 302396480654675968\nlastEdited: 1713914598\nlastEditedBy: 302396480654675968\n to its parent view 8d31780d-0758-508a-99a6-50b13cf19627","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 8d31780d-0758-508a-99a6-50b13cf19627 is not in parent 8d31780d-0758-508a-99a6-50b13cf19627.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: de039bc9-e3b3-53cf-881b-7bc4ba0e8ba6\nparentViewId: de039bc9-e3b3-53cf-881b-7bc4ba0e8ba6\nname: Untitled\ncreateTime: 1713733921\ncreatedBy: 302396480654675968\nlastEdited: 1713733921\nlastEditedBy: 302396480654675968\n to its parent view de039bc9-e3b3-53cf-881b-7bc4ba0e8ba6","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view de039bc9-e3b3-53cf-881b-7bc4ba0e8ba6 is not in parent de039bc9-e3b3-53cf-881b-7bc4ba0e8ba6.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] move view: id: 9ca12a1a-bb5f-535a-82a3-190f54e104c4\nparentViewId: 9ca12a1a-bb5f-535a-82a3-190f54e104c4\nname: Untitled\ncreateTime: 1713914330\ncreatedBy: 302396480654675968\nlastEdited: 1713914330\nlastEditedBy: 302396480654675968\n to its parent view 9ca12a1a-bb5f-535a-82a3-190f54e104c4","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"🟡 The view 9ca12a1a-bb5f-535a-82a3-190f54e104c4 is not in parent 9ca12a1a-bb5f-535a-82a3-190f54e104c4.","time":"08-01 12:33:09","target":"collab_folder::relation"}
+{"msg":"[Flutter]: [workspace] end to fix unlistedChildViews","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"[Flutter]: [workspace] done checking view health","time":"08-01 12:33:09","target":"dart_ffi"}
+{"msg":"💡Some(\"Linux 22.04 Ubuntu\"), platform: Linux","time":"08-01 12:33:22","target":"flowy_core"}
+{"msg":"[🟢 INIT - START]","time":"08-01 12:33:22","target":"flowy_core"}
+{"msg":"[INIT - EVENT] 🔥AppFlowy Configuration { app_version: Version { major: 0, minor: 6, patch: 5 }, storage_path: \"/home/tobi/.local/share/AppFlowy/data_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk\", application_path: \"/home/tobi/.local/share/AppFlowy/data\", base_url: \"https://beta.appflowy.cloud\", ws_url: \"wss://beta.appflowy.cloud:443/ws/v1\", gotrue_url: \"https://beta.appflowy.cloud/gotrue\" }","time":"08-01 12:33:22","target":"flowy_core"}
+{"msg":"[AI Plugin] state: Connecting","time":"08-01 12:33:22","target":"flowy_chat::local_ai::local_llm_chat"}
+{"msg":"[INIT - EVENT] init user session: 302396480654675968:tobiakinsinmide@gmail.com, authenticator: AppFlowyCloud","time":"08-01 12:33:22","target":"flowy_user::user_manager::manager"}
+{"msg":"[INIT - EVENT] open collab db for user 302396480654675968 at path: \"/home/tobi/.local/share/AppFlowy/data_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk/302396480654675968/collab_db\"","time":"08-01 12:33:22","target":"flowy_user::services::db"}
+{"msg":"[INIT - EVENT] open collab db to validate data integration for user 302396480654675968","time":"08-01 12:33:22","target":"flowy_user::services::db"}
+{"msg":"[INIT - EVENT] Set AI model: ","time":"08-01 12:33:22","target":"flowy_core::integrate::trait_impls"}
+{"msg":"[INIT - EVENT] using ai model: DefaultModel","time":"08-01 12:33:22","target":"client_api::http"}
+{"msg":"🟢token state: Refresh","time":"08-01 12:33:22","target":"flowy_server::af_cloud::server"}
+{"msg":"[🟢 BACKUP_COLLAB_DB - START]","time":"08-01 12:33:22","target":"flowy_user::services::db"}
+{"msg":"[BACKUP_COLLAB_DB - EVENT] Current backup: 10","time":"08-01 12:33:22","target":"flowy_user::services::db"}
+{"msg":"[BACKUP_COLLAB_DB - END]","time":"08-01 12:33:22","target":"flowy_user::services::db","elapsed_milliseconds":0}
+{"msg":"[INIT - EVENT] Prepare user data migration","time":"08-01 12:33:22","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 TRY_INITIAL_USER_AWARENESS - START]","time":"08-01 12:33:22","target":"flowy_user::user_manager::manager_user_awareness"}
+{"msg":"[TRY_INITIAL_USER_AWARENESS - END]","time":"08-01 12:33:22","target":"flowy_user::user_manager::manager_user_awareness","elapsed_milliseconds":0}
+{"msg":"[INIT - EVENT] 302396480654675968 cloud sync: true","time":"08-01 12:33:22","target":"flowy_server::af_cloud::server"}
+{"msg":"[🟢 INITIALIZE - START]","time":"08-01 12:33:22","target":"flowy_folder::manager_init","uid":302396480654675968,"workspace_id":"ff929973-633a-4323-841d-df458c83b369"}
+{"msg":"get collab:workspace_id: ff929973-633a-4323-841d-df458c83b369, object_id: be14620b-222a-51b3-a529-e61abebe03c6, collab_type: UserAwareness","time":"08-01 12:33:22","target":"client_api::native::http_native"}
+{"msg":"[INITIALIZE - EVENT] Init workspace: ff929973-633a-4323-841d-df458c83b369 from: LocalDisk","time":"08-01 12:33:22","target":"flowy_folder::manager_init","uid":302396480654675968,"workspace_id":"ff929973-633a-4323-841d-df458c83b369"}
+{"msg":"[INITIALIZE - EVENT] Init folder from local disk","time":"08-01 12:33:22","target":"flowy_folder::manager_init","uid":302396480654675968,"workspace_id":"ff929973-633a-4323-841d-df458c83b369"}
+{"msg":"[INITIALIZE - END]","time":"08-01 12:33:22","target":"flowy_folder::manager_init","elapsed_milliseconds":101,"uid":302396480654675968,"workspace_id":"ff929973-633a-4323-841d-df458c83b369"}
+{"msg":"[INIT - EVENT] open aggregate database views object: ff05ede9-9db8-4d17-93f8-6ed83a2b14ea","time":"08-01 12:33:22","target":"flowy_database2::manager"}
+{"msg":"[INIT - END]","time":"08-01 12:33:22","target":"flowy_core","elapsed_milliseconds":345}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:33:22","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:33:22","target":"client_api::http"}
+{"msg":"[Flutter]: [CachedRecentService] Initialized","time":"08-01 12:33:22","target":"dart_ffi"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:33:22","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:33:22","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 TRY_INITIAL_USER_AWARENESS - START]","time":"08-01 12:33:22","target":"flowy_user::user_manager::manager_user_awareness"}
+{"msg":"[🟢 GET_WORKSPACES - START]","time":"08-01 12:33:22","target":"client_api::http"}
+{"msg":"[Flutter]: init workspace, current workspace: ff929973-633a-4323-841d-df458c83b369, workspaces: (ff929973-633a-4323-841d-df458c83b369, 6cc10c62-f1ad-4c49-a714-597691e0f58f), isCollabWorkspaceOn: true","time":"08-01 12:33:22","target":"dart_ffi"}
+{"msg":"[🟢 GET_WORKSPACE_USAGE - START]","time":"08-01 12:33:22","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"Open view: 2c1518bd-bb25-4447-bd8a-25a8fd4deba8","time":"08-01 12:33:22","target":"flowy_folder::manager"}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"08-01 12:33:22","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"08-01 12:33:22","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":1}
+{"msg":"request_id: \"c33a647e0457092e0cad58ac4ef66edd\"","time":"08-01 12:33:23","target":"client_api::http"}
+{"msg":"[GET_WORKSPACES - EVENT] request_id: \"884fa5b32983672162319be71a122687\"","time":"08-01 12:33:23","target":"client_api::http"}
+{"msg":"[GET_WORKSPACES - END]","time":"08-01 12:33:23","target":"client_api::http","elapsed_milliseconds":876}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"84e568af650594441cdc0c88ef56b466\"","time":"08-01 12:33:23","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:33:23","target":"client_api::http","elapsed_milliseconds":910}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:33:23","target":"flowy_user::user_manager::manager","elapsed_milliseconds":912}
+{"msg":"[GET_WORKSPACE_USAGE - END]","time":"08-01 12:33:23","target":"flowy_user::user_manager::manager_user_workspace","elapsed_milliseconds":1125,"workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:33:23","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:33:23","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"Can't find the view with id: 027e7fd3-95b7-5273-be79-e96ab573c8a8","time":"08-01 12:33:28","target":"flowy_folder::manager"}
+{"msg":"flowy_folder::event_handler","time":"08-01 12:33:28","target":"flowy_folder::event_handler","error":"RecordNotFound: Record not found"}
+{"msg":"[🟢 CREATE_DOCUMENT - START]","time":"08-01 12:33:28","target":"flowy_document::manager","uid":302396480654675968,"doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8"}
+{"msg":"[CREATE_DOCUMENT - END]","time":"08-01 12:33:28","target":"flowy_document::manager","elapsed_milliseconds":1,"uid":302396480654675968,"doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:33:28","target":"flowy_document::manager","doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:33:28","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:33:28","target":"flowy_document::manager","doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:33:28","target":"flowy_document::manager","doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:33:28","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:33:28","target":"client_api::http"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:33:28","target":"flowy_document::manager","doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:33:28","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8"}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"ae1b3ae4c7ca0f8b25be559236c7d90c\"","time":"08-01 12:33:28","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:33:28","target":"client_api::http","elapsed_milliseconds":358}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:33:28","target":"flowy_user::user_manager::manager","elapsed_milliseconds":358}
+{"msg":"🔵websocket start connecting","time":"08-01 12:33:29","target":"client_api::native::retry"}
+{"msg":"[websocket] state: Connecting","time":"08-01 12:33:29","target":"flowy_server::af_cloud::server"}
+{"msg":"🟢websocket connect success","time":"08-01 12:33:30","target":"client_api::native::retry"}
+{"msg":"[websocket] state: Connected","time":"08-01 12:33:30","target":"flowy_server::af_cloud::server"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:33:31","target":"flowy_document::manager","doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:33:31","target":"flowy_document::manager","doc_id":"027e7fd3-95b7-5273-be79-e96ab573c8a8","elapsed_milliseconds":0}
+{"msg":"subscribe_awareness_state error: failed to parse state for id: 765436323, state: \"null\" - invalid type: null, expected struct DocumentAwarenessState at line 1 column 4","time":"08-01 12:33:31","target":"collab_document::document"}
+{"msg":"[🟢 GET_WORKSPACE_USAGE - START]","time":"08-01 12:33:50","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[GET_WORKSPACE_USAGE - END]","time":"08-01 12:33:51","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\"","elapsed_milliseconds":403}
+{"msg":"prepare upload task: 0","time":"08-01 12:33:52","target":"flowy_storage::manager"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:00","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:00","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:34:00","target":"client_api::http"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:00","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:00","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:00","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:00","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:00","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:00","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:00","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"08-01 12:34:00","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"08-01 12:34:00","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":3}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:00","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:00","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"b4ba3a018041f4e3f4676fbbac4c0bb0\"","time":"08-01 12:34:00","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:34:00","target":"client_api::http","elapsed_milliseconds":306}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:00","target":"flowy_user::user_manager::manager","elapsed_milliseconds":306}
+{"msg":"Open view: 11c70779-356b-4229-85d3-b7174023dc12","time":"08-01 12:34:00","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:00","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:00","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:03","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:03","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12","elapsed_milliseconds":0}
+{"msg":"subscribe_awareness_state error: failed to parse state for id: 3526237273, state: \"null\" - invalid type: null, expected struct DocumentAwarenessState at line 1 column 4","time":"08-01 12:34:03","target":"collab_document::document"}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"08-01 12:34:03","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"08-01 12:34:03","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:03","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:03","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"Open view: 29c79bc5-ff8e-4a5e-bf23-9804e5ebf859","time":"08-01 12:34:03","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:05","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:05","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:05","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:05","target":"flowy_user::user_manager::manager"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:05","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:34:05","target":"client_api::http"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:05","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:05","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:05","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:05","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12","elapsed_milliseconds":0}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"08-01 12:34:05","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"08-01 12:34:05","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:05","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:05","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"a843be0c9246d8a3c7fced12b7d9bafb\"","time":"08-01 12:34:05","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:34:05","target":"client_api::http","elapsed_milliseconds":295}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:05","target":"flowy_user::user_manager::manager","elapsed_milliseconds":296}
+{"msg":"Open view: 11c70779-356b-4229-85d3-b7174023dc12","time":"08-01 12:34:05","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:05","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:05","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:10","target":"flowy_document::manager","doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:10","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"11c70779-356b-4229-85d3-b7174023dc12"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:10","target":"flowy_document::manager","doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:10","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:34:10","target":"client_api::http"}
+{"msg":"subscribe_awareness_state error: failed to parse state for id: 3526237273, state: \"null\" - invalid type: null, expected struct DocumentAwarenessState at line 1 column 4","time":"08-01 12:34:10","target":"collab_document::document"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:10","target":"flowy_document::manager","doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179","elapsed_milliseconds":2}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:10","target":"flowy_document::manager","doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:10","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:10","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:10","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:10","target":"flowy_document::manager","doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:10","target":"flowy_document::manager","doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:11","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:11","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"eeb76d924bb4844e55c3fb028225b7b8\"","time":"08-01 12:34:11","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:34:11","target":"client_api::http","elapsed_milliseconds":295}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:11","target":"flowy_user::user_manager::manager","elapsed_milliseconds":296}
+{"msg":"Open view: b3d6880f-14f3-4820-afed-1690f9ab3179","time":"08-01 12:34:11","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:11","target":"flowy_document::manager","doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:11","target":"flowy_document::manager","doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179","elapsed_milliseconds":0}
+{"msg":"Open view: 914b5ea5-7e4d-44ca-9e2e-698506f179f6","time":"08-01 12:34:12","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:12","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"b3d6880f-14f3-4820-afed-1690f9ab3179"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:12","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:12","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6","elapsed_milliseconds":0}
+{"msg":"subscribe_awareness_state error: failed to parse state for id: 503179140, state: \"null\" - invalid type: null, expected struct DocumentAwarenessState at line 1 column 4","time":"08-01 12:34:12","target":"collab_document::document"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:12","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:12","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:12","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:12","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:12","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:12","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:14","target":"flowy_document::manager","doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:14","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"914b5ea5-7e4d-44ca-9e2e-698506f179f6"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:14","target":"flowy_document::manager","doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:14","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:14","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"subscribe_awareness_state error: failed to parse state for id: 727647027, state: \"null\" - invalid type: null, expected struct DocumentAwarenessState at line 1 column 4","time":"08-01 12:34:14","target":"collab_document::document"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:14","target":"flowy_document::manager","doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94","elapsed_milliseconds":2}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:14","target":"flowy_document::manager","doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:14","target":"flowy_document::manager","doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:14","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:14","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:14","target":"flowy_document::manager","doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:14","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:14","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:14","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"Open view: 62642c03-0b18-49cd-a0d1-07d6124aef94","time":"08-01 12:34:14","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:14","target":"flowy_document::manager","doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:14","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:16","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"62642c03-0b18-49cd-a0d1-07d6124aef94"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:16","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:34:16","target":"client_api::http"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:16","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254"}
+{"msg":"subscribe_awareness_state error: failed to parse state for id: 3687465937, state: \"null\" - invalid type: null, expected struct DocumentAwarenessState at line 1 column 4","time":"08-01 12:34:16","target":"collab_document::document"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:16","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:16","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254","elapsed_milliseconds":0}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"d232c6192210ffa8f8e99a04a41a1dff\"","time":"08-01 12:34:16","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:34:16","target":"client_api::http","elapsed_milliseconds":409}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:16","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:16","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:16","target":"flowy_user::user_manager::manager","elapsed_milliseconds":410}
+{"msg":"Open view: c09badd1-3ac8-4c98-be95-cd57f17ad254","time":"08-01 12:34:16","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:34:16","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:34:19","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:34:19","target":"flowy_document::manager","doc_id":"c09badd1-3ac8-4c98-be95-cd57f17ad254","elapsed_milliseconds":0}
+{"msg":"[🟢 V_GET_ROWS - START]","time":"08-01 12:34:19","target":"flowy_database2::services::database_view::view_editor"}
+{"msg":"[V_GET_ROWS - END]","time":"08-01 12:34:19","target":"flowy_database2::services::database_view::view_editor","elapsed_milliseconds":0}
+{"msg":"subscribe_awareness_state error: failed to parse state for id: 846757780, state: \"null\" - invalid type: null, expected struct DocumentAwarenessState at line 1 column 4","time":"08-01 12:34:19","target":"collab_document::document"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:34:19","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:34:19","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"Open view: 2c1518bd-bb25-4447-bd8a-25a8fd4deba8","time":"08-01 12:34:20","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:36:19","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:36:19","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:36:19","target":"client_api::http"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:36:19","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc","elapsed_milliseconds":2}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:36:19","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:36:19","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:36:19","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:36:19","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:36:19","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:36:19","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"Open view: 2a029f36-7320-41aa-ae18-58b7506551bc","time":"08-01 12:36:19","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:36:19","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:36:19","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:36:19","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:36:19","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"2adbef39aa77f9331c6392992d0cb50a\"","time":"08-01 12:36:19","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:36:19","target":"client_api::http","elapsed_milliseconds":843}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:36:19","target":"flowy_user::user_manager::manager","elapsed_milliseconds":843}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:36:20","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:36:20","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:36:21","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:36:21","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:36:22","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:36:22","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:37:20","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:37:20","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:37:23","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:37:23","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:43","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:43","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:46","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:46","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:48","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:48","target":"flowy_document::manager","doc_id":"2a029f36-7320-41aa-ae18-58b7506551bc","elapsed_milliseconds":0}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:46:48","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:46:48","target":"flowy_user::user_manager::manager"}
+{"msg":"subscribe_awareness_state error: failed to parse state for id: 971915512, state: \"null\" - invalid type: null, expected struct DocumentAwarenessState at line 1 column 4","time":"08-01 12:46:48","target":"collab_document::document"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 12:46:48","target":"client_api::http"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:46:48","target":"flowy_document::manager","elapsed_milliseconds":2,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:48","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:48","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:46:48","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:46:48","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:48","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:48","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"Open view: 1fcb022d-e41a-4e0f-a212-bfb047cc5849","time":"08-01 12:46:48","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 12:46:48","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 12:46:48","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 12:46:49","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:46:49","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"1d53d9fea81e967394e796568902b85d\"","time":"08-01 12:46:49","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 12:46:49","target":"client_api::http","elapsed_milliseconds":838}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 12:46:49","target":"flowy_user::user_manager::manager","elapsed_milliseconds":838}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:50","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:50","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:51","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:51","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_WORKSPACE_USAGE - START]","time":"08-01 12:46:52","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"[GET_WORKSPACE_USAGE - END]","time":"08-01 12:46:52","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\"","elapsed_milliseconds":290}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:54","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:54","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:55","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:55","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:56","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:56","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:46:58","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:46:58","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:47:01","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:47:01","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 12:51:48","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 12:51:48","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849","elapsed_milliseconds":0}
+{"msg":"💡Some(\"Linux 22.04 Ubuntu\"), platform: Linux","time":"08-01 18:34:42","target":"flowy_core"}
+{"msg":"[🟢 INIT - START]","time":"08-01 18:34:42","target":"flowy_core"}
+{"msg":"[INIT - EVENT] 🔥AppFlowy Configuration { app_version: Version { major: 0, minor: 6, patch: 5 }, storage_path: \"/home/tobi/.local/share/AppFlowy/data_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk\", application_path: \"/home/tobi/.local/share/AppFlowy/data\", base_url: \"https://beta.appflowy.cloud\", ws_url: \"wss://beta.appflowy.cloud:443/ws/v1\", gotrue_url: \"https://beta.appflowy.cloud/gotrue\" }","time":"08-01 18:34:42","target":"flowy_core"}
+{"msg":"[AI Plugin] state: Connecting","time":"08-01 18:34:42","target":"flowy_chat::local_ai::local_llm_chat"}
+{"msg":"[INIT - EVENT] init user session: 302396480654675968:tobiakinsinmide@gmail.com, authenticator: AppFlowyCloud","time":"08-01 18:34:42","target":"flowy_user::user_manager::manager"}
+{"msg":"[INIT - EVENT] open collab db for user 302396480654675968 at path: \"/home/tobi/.local/share/AppFlowy/data_aHR0cHM6Ly9iZXRhLmFwcGZsb3d5LmNsb3Vk/302396480654675968/collab_db\"","time":"08-01 18:34:42","target":"flowy_user::services::db"}
+{"msg":"[INIT - EVENT] open collab db to validate data integration for user 302396480654675968","time":"08-01 18:34:43","target":"flowy_user::services::db"}
+{"msg":"[INIT - EVENT] Set AI model: ","time":"08-01 18:34:43","target":"flowy_core::integrate::trait_impls"}
+{"msg":"[INIT - EVENT] using ai model: DefaultModel","time":"08-01 18:34:43","target":"client_api::http"}
+{"msg":"[🟢 BACKUP_COLLAB_DB - START]","time":"08-01 18:34:43","target":"flowy_user::services::db"}
+{"msg":"🟢token state: Refresh","time":"08-01 18:34:43","target":"flowy_server::af_cloud::server"}
+{"msg":"[BACKUP_COLLAB_DB - EVENT] Current backup: 10","time":"08-01 18:34:43","target":"flowy_user::services::db"}
+{"msg":"[BACKUP_COLLAB_DB - END]","time":"08-01 18:34:43","target":"flowy_user::services::db","elapsed_milliseconds":0}
+{"msg":"[INIT - EVENT] Prepare user data migration","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 TRY_INITIAL_USER_AWARENESS - START]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager_user_awareness"}
+{"msg":"[TRY_INITIAL_USER_AWARENESS - END]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager_user_awareness","elapsed_milliseconds":0}
+{"msg":"[INIT - EVENT] 302396480654675968 cloud sync: true","time":"08-01 18:34:43","target":"flowy_server::af_cloud::server"}
+{"msg":"get collab:workspace_id: ff929973-633a-4323-841d-df458c83b369, object_id: be14620b-222a-51b3-a529-e61abebe03c6, collab_type: UserAwareness","time":"08-01 18:34:43","target":"client_api::native::http_native"}
+{"msg":"[🟢 INITIALIZE - START]","time":"08-01 18:34:43","target":"flowy_folder::manager_init","workspace_id":"ff929973-633a-4323-841d-df458c83b369","uid":302396480654675968}
+{"msg":"[INITIALIZE - EVENT] Init workspace: ff929973-633a-4323-841d-df458c83b369 from: LocalDisk","time":"08-01 18:34:43","target":"flowy_folder::manager_init","workspace_id":"ff929973-633a-4323-841d-df458c83b369","uid":302396480654675968}
+{"msg":"[INITIALIZE - EVENT] Init folder from local disk","time":"08-01 18:34:43","target":"flowy_folder::manager_init","workspace_id":"ff929973-633a-4323-841d-df458c83b369","uid":302396480654675968}
+{"msg":"[INITIALIZE - END]","time":"08-01 18:34:43","target":"flowy_folder::manager_init","workspace_id":"ff929973-633a-4323-841d-df458c83b369","uid":302396480654675968,"elapsed_milliseconds":110}
+{"msg":"[INIT - EVENT] open aggregate database views object: ff05ede9-9db8-4d17-93f8-6ed83a2b14ea","time":"08-01 18:34:43","target":"flowy_database2::manager"}
+{"msg":"[INIT - END]","time":"08-01 18:34:43","target":"flowy_core","elapsed_milliseconds":354}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 GET_PROFILE - START]","time":"08-01 18:34:43","target":"client_api::http"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[Flutter]: [CachedRecentService] Initialized","time":"08-01 18:34:43","target":"dart_ffi"}
+{"msg":"[🟢 TRY_INITIAL_USER_AWARENESS - START]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager_user_awareness"}
+{"msg":"[🟢 GET_WORKSPACES - START]","time":"08-01 18:34:43","target":"client_api::http"}
+{"msg":"[Flutter]: init workspace, current workspace: ff929973-633a-4323-841d-df458c83b369, workspaces: (ff929973-633a-4323-841d-df458c83b369, 6cc10c62-f1ad-4c49-a714-597691e0f58f), isCollabWorkspaceOn: true","time":"08-01 18:34:43","target":"dart_ffi"}
+{"msg":"[🟢 GET_WORKSPACE_MEMBER - START]","time":"08-01 18:34:43","target":"client_api::http_member"}
+{"msg":"[🟢 GET_WORKSPACE_USAGE - START]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\""}
+{"msg":"Open view: 1fcb022d-e41a-4e0f-a212-bfb047cc5849","time":"08-01 18:34:43","target":"flowy_folder::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 18:34:43","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 18:34:43","target":"flowy_document::manager","elapsed_milliseconds":2,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager"}
+{"msg":"[🟢 CREATE_DOCUMENT_INSTANCE - START]","time":"08-01 18:34:43","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[CREATE_DOCUMENT_INSTANCE - END]","time":"08-01 18:34:43","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:34:43","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:34:43","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 18:34:43","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:34:43","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:34:43","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849","elapsed_milliseconds":0}
+{"msg":"request_id: \"4647d9992a92c3b90e5a8552d8a91080\"","time":"08-01 18:34:43","target":"client_api::http"}
+{"msg":"[GET_WORKSPACES - EVENT] request_id: \"bd686dc9da4937b22f7999ff372fbca0\"","time":"08-01 18:34:44","target":"client_api::http"}
+{"msg":"[GET_WORKSPACE_MEMBER - EVENT] request_id: \"8e2d285f485fc1ad2f8c706f791a2cae\"","time":"08-01 18:34:44","target":"client_api::http"}
+{"msg":"[GET_WORKSPACES - END]","time":"08-01 18:34:44","target":"client_api::http","elapsed_milliseconds":800}
+{"msg":"[GET_WORKSPACE_MEMBER - END]","time":"08-01 18:34:44","target":"client_api::http_member","elapsed_milliseconds":799}
+{"msg":"[GET_PROFILE - EVENT] request_id: \"acc72732110aa66d07490deda57f5d96\"","time":"08-01 18:34:44","target":"client_api::http"}
+{"msg":"[GET_PROFILE - END]","time":"08-01 18:34:44","target":"client_api::http","elapsed_milliseconds":836}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 18:34:44","target":"flowy_user::user_manager::manager","elapsed_milliseconds":836}
+{"msg":"[GET_WORKSPACE_USAGE - END]","time":"08-01 18:34:44","target":"flowy_user::user_manager::manager_user_workspace","workspace_id":"\"ff929973-633a-4323-841d-df458c83b369\"","elapsed_milliseconds":846}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 18:34:44","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 18:34:44","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 REFRESH_USER_PROFILE - START]","time":"08-01 18:34:45","target":"flowy_user::user_manager::manager"}
+{"msg":"[REFRESH_USER_PROFILE - END]","time":"08-01 18:34:45","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:34:45","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:34:45","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 USER_DIR - START]","time":"08-01 18:34:46","target":"flowy_user::user_manager::manager"}
+{"msg":"[USER_DIR - END]","time":"08-01 18:34:46","target":"flowy_user::user_manager::manager","elapsed_milliseconds":0}
+{"msg":"🔵websocket start connecting","time":"08-01 18:34:51","target":"client_api::native::retry"}
+{"msg":"[websocket] state: Connecting","time":"08-01 18:34:51","target":"flowy_server::af_cloud::server"}
+{"msg":"🟢websocket connect success","time":"08-01 18:34:52","target":"client_api::native::retry"}
+{"msg":"[websocket] state: Connected","time":"08-01 18:34:52","target":"flowy_server::af_cloud::server"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:34:53","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:34:53","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:35:05","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:35:05","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849","elapsed_milliseconds":0}
+{"msg":"prepare upload task: 0","time":"08-01 18:35:12","target":"flowy_storage::manager"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:35:48","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:35:48","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:36:46","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:36:46","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:36:55","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:36:55","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:37:06","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:37:06","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:38:15","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:38:15","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:39:05","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:39:05","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849","elapsed_milliseconds":0}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 18:40:11","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 18:40:11","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"IO error: Broken pipe (os error 32)","time":"08-01 20:27:26","target":"client_api::ws::client"}
+{"msg":"IO error: Broken pipe (os error 32)","time":"08-01 20:27:31","target":"client_api::ws::client"}
+{"msg":"IO error: Broken pipe (os error 32)","time":"08-01 20:27:36","target":"client_api::ws::client"}
+{"msg":"IO error: Broken pipe (os error 32)","time":"08-01 20:27:41","target":"client_api::ws::client"}
+{"msg":"IO error: Broken pipe (os error 32)","time":"08-01 20:27:46","target":"client_api::ws::client"}
+{"msg":"[websocket] state: PingTimeout","time":"08-01 20:27:51","target":"flowy_server::af_cloud::server"}
+{"msg":"IO error: Broken pipe (os error 32)","time":"08-01 20:27:51","target":"client_api::ws::client"}
+{"msg":"IO error: Broken pipe (os error 32)","time":"08-01 20:27:56","target":"client_api::ws::client"}
+{"msg":"🔵websocket start connecting","time":"08-01 20:27:57","target":"client_api::native::retry"}
+{"msg":"[websocket] state: Connecting","time":"08-01 20:27:57","target":"flowy_server::af_cloud::server"}
+{"msg":"🟢websocket connect success","time":"08-01 20:27:58","target":"client_api::native::retry"}
+{"msg":"[websocket] state: Connected","time":"08-01 20:27:58","target":"flowy_server::af_cloud::server"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 22:04:19","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 22:04:19","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[🟢 GET_DOCUMENT - START]","time":"08-01 22:04:21","target":"flowy_document::manager","doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
+{"msg":"[GET_DOCUMENT - END]","time":"08-01 22:04:21","target":"flowy_document::manager","elapsed_milliseconds":0,"doc_id":"1fcb022d-e41a-4e0f-a212-bfb047cc5849"}
